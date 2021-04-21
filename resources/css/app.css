@@ -1,0 +1,34 @@
+/* @import "tailwindcss/base"; */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "~@mdi/font/css/materialdesignicons.min.css";
+@import "files/fontiran.css";
+@import "~vue2-dropzone/dist/vue2Dropzone.min.css";
+
+body .v-application {
+    font-family: IRANSans !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+/* .container {
+    max-width: 1200px;
+} */
+/* .container--fluid {
+    max-width: 100%;
+} */
+.v-application .body-1,
+.v-application .title,
+.v-application .caption,
+.v-application .body-2,
+.v-application .display-1,
+.v-application .headline,
+.v-application .subtitle-1 {
+    font-family: IRANSans !important;
+}
+
+@import "~vuetify/dist/vuetify.min.css";
